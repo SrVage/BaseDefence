@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17c1d207e0e944d682197a911bb0dea1, type: 3}
+  m_Name: Enemy Config
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 4398548686717317783, guid: 6204284df930b284dbeec7757c396b1d, type: 3}
+  Speed: 1.5
+  SpawnPosition:
+  - {x: 4, y: 0, z: 8}
+  - {x: 2, y: 0, z: 7}
+  - {x: 0, y: 0, z: 9}
+  - {x: -2, y: 0, z: 7}
+  - {x: -4, y: 0, z: 8}
+  TargetPosition:
+  - {x: 4, y: 0, z: -7}
+  - {x: 2, y: 0, z: -7}
+  - {x: 0, y: 0, z: -7}
+  - {x: -2, y: 0, z: -7}
+  - {x: -4, y: 0, z: -7}
+  WaitTime: 5
